@@ -1,0 +1,124 @@
+
+// Setcion quem-fez ////////////////////////////////////////////////////////////////
+section.quem-fez {
+    background-image: url("../img/background-small.png");
+    background-size: cover;
+    padding: 30px 0 100px;
+
+  div.title-section {
+        width: 60%;
+        margin: 0 auto;
+        padding: 40px 0;
+        font-size: 1.2em;
+        
+        h2 {
+            margin: 0 0 0 30px;
+            color: #0066CC;
+        }
+
+        p {
+            margin: 0 0 0 30px;
+        }
+    }
+
+    div.equipe {
+        box-shadow: -1px 2px 15px 2px rgba(0,0,0,0.75);
+        width: 60%;
+        margin: 0 auto;
+
+        text-align: center;        
+
+        div.cards-equipe {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            div {
+                width: 20%;
+                background-color: #ffffff;
+                
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    margin: 0 auto;
+                    padding: 5px 0 60px;
+           
+                }
+            }
+        }
+    }
+}
+
+// Media Queries - 768///////////////////////////////////////////////////////////////////////
+@media (max-width: 768px){
+
+    // Section quem-fez---------------------
+    section.quem-fez {
+        font-size: 0.8em;
+   
+        div.title-section {
+            padding: 30px 0;
+        }
+
+        div.equipe {  
+            width: 80%;
+
+            div.cards-equipe {
+                    
+                div {
+
+                    p {
+                        padding-bottom: 20px;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+// Media Queries - 480/////////////////////////////////////////////////////////////////
+@media  (max-width: 480px){
+    
+    section.quem-fez {
+        font-size: 0.8em;
+        text-align: center;
+        padding: 25px 0 50px;
+
+        div.title-section {
+            //padding: 30px 0;
+            width: 50%;
+            padding: 20px;
+
+            p {
+                margin: 0 auto;
+                padding: 0;
+            }
+
+            h2 {
+                margin: 0 auto;
+            }
+        }
+
+        div.equipe {  
+            width: 60%;
+            font-size: 13px; 
+
+            div.cards-equipe {
+                   
+                div {
+                    width: 50%;
+
+                    p {
+                        padding-bottom: 20px;
+                     
+                    }
+                }
+            }
+        }
+    }
+}
+

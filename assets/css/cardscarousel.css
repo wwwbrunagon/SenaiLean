@@ -1,0 +1,143 @@
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+section.o-que-eh {
+  padding-bottom: 18px;
+}
+
+section.como-usar {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+div.sobre {
+  max-width: 680px;
+  text-align: left;
+  margin: 30px auto;
+}
+
+@media (max-width: 320px) {
+  div.sobre {
+    padding-left: 25px;
+  }
+}
+
+div.sobre h2 {
+  color: #003366;
+  font-size: 30px;
+}
+
+@media (max-width: 320px) {
+  div.sobre h2 {
+    padding-left: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+div.sobre p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  div.sobre p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  div.sobre p {
+    font-size: 13px;
+    width: 220px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  div.sobre {
+    width: 80%;
+  }
+}
+
+@media (max-width: 320px) {
+  div.sobre {
+    width: 280px;
+  }
+}
+
+div.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 5px 20px 5px 20px;
+}
+
+@media (max-width: 320px) {
+  div.cards {
+    max-width: 260px;
+  }
+}
+
+div.cards .cardimg {
+  max-width: 100%;
+  heigth: 100%;
+}
+
+@media (max-width: 320px) {
+  div.cards .cardimg {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+div.cards .cardstyle {
+  border: 1px solid #4a7093;
+  background-color: #f0f7f7;
+  width: 100%;
+  height: 285px;
+}
+
+@media (max-width: 320px) {
+  div.cards .cardstyle {
+    max-width: 280px;
+    max-height: 280px;
+  }
+}
+
+div.cards .pimg {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  max-width: 240px;
+  padding: 10px 5px 0px 10px;
+}
+
+.comobtn {
+  width: 100%;
+  max-width: 200px;
+  height: 30px;
+  margin: 30px auto;
+  display: block;
+  padding: 5px 5px 30px;
+  background-color: #0066CC;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 320px) {
+  .comobtn {
+    width: 50%;
+    margin: -10px auto;
+    max-height: 30px;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=cardscarousel.css.map */

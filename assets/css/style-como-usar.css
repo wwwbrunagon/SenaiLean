@@ -1,0 +1,51 @@
+section.tutorial {
+  background-image: url("../img/background-large.png");
+  background-size: cover;
+  padding-bottom: 70px;
+}
+section.tutorial div.fundo {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  padding-bottom: 30px;
+}
+section.tutorial div.fundo h2 {
+  padding: 30px 30px 0;
+  margin: 0;
+  font-size: 30px;
+  color: #0066CC;
+}
+section.tutorial div.fundo div.passos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section.tutorial div.fundo div.passos div.passo-a-passo {
+  width: 45%;
+}
+@media (max-width: 480px) {
+  section.tutorial div.fundo div.passos div.passo-a-passo {
+    width: 70%;
+  }
+}
+@media (max-width: 320px) {
+  section.tutorial div.fundo div.passos div.passo-a-passo {
+    width: 80%;
+  }
+}
+section.tutorial div.fundo div.passos div.passo-a-passo img {
+  width: 100%;
+  border: 1px solid;
+}
+section.tutorial div.fundo div.passos div.passo-a-passo p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+section.tutorial div.fundo div.passos hr.linha {
+  width: 95%;
+  border-color: #0066CC;
+  border-width: 1px;
+  margin: 30px 0;
+}

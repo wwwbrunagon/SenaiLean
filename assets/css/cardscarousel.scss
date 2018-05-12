@@ -1,0 +1,178 @@
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+
+section.o-que-eh{
+  padding-bottom: 18px;
+}
+
+section.como-usar{
+  padding-top: 150px;
+  padding-bottom: 100px; 
+}
+//_ _ _ _ 
+
+div.sobre{
+  max-width: 680px;
+  text-align: left;
+  margin: 30px auto;
+     //mobile
+     @media (max-width: 320px) {
+             padding-left: 25px;
+         } 
+
+    h2{
+      color: #003366;
+      font-size:30px;
+      //mobile
+     @media (max-width: 320px) {
+              padding-left: 12px;
+              margin-bottom: 10px;
+      }    
+    }
+
+      p{
+        font-size: 16px;
+
+        //tablet
+        @media (max-width: 768px) {
+                 font-size:14px;
+             }
+
+        //mobile
+         @media (max-width: 320px) {
+                  font-size: 13px;
+                  width: 220px;
+                  padding-left: 10px;
+                  margin-bottom: 15px;
+
+             }     
+
+           }     
+
+      //tablet
+      @media (max-width: 768px) {
+      width:80%;
+          }
+
+       //mobile
+         @media (max-width: 320px) {
+                 width:280px;
+             } 
+  }
+
+//--------- 
+
+
+//General CARD carousel ______ 
+
+div.cards {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 5px 20px 5px 20px;
+ 
+  //height:300px;
+  // border: 1px solid #4a7093;
+  // background-color: #f0f7f7;
+
+        //mobile
+         @media (max-width: 320px) {
+                 max-width:260px;
+          }
+    
+
+        .cardimg {
+          max-width:100%;
+          heigth:100%;
+            //mobile
+             @media (max-width: 320px) {
+              max-width: 200px;
+              margin: 0 auto;
+              }
+      
+        }  
+
+
+        .cardstyle{
+             border: 1px solid #4a7093;
+             background-color: #f0f7f7; 
+             width: 100%;
+             height: 285px;
+
+                 @media (max-width: 320px) {
+                       max-width:280px;
+                       max-height: 280px;
+                       }
+
+              }
+
+        .pimg{
+          font-size:14px;
+          text-align:center;
+          display:block;
+          max-width: 240px;
+          padding:10px 5px 0px 10px;          
+      }
+
+   }
+
+
+
+
+
+ // dots carousel
+
+// .slick-dots {
+//     bottom: -30px;  
+//     }
+
+//     .slick-dots li.slick-active > button{
+//       background: red;
+//     }
+
+//     .slick-dots li button{
+//       background:black;
+//       border-radius: 50px;
+//       width: 10px;
+//       height: 10px;
+//       }
+
+
+
+
+
+
+
+//BTN _____________________________
+
+.comobtn{     
+ 
+  width: 100%;
+  max-width: 200px;
+  height: 30px;
+  margin: 30px auto;
+  display: block;
+  padding: 5px 5px 30px; 
+  background-color: #0066CC;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  
+  //mobile
+  @media (max-width: 320px) {
+         
+          width: 50%;
+          margin: -10px auto;
+          max-height: 30px;
+          font-size: 18px;
+          padding-bottom:20px;
+    }  
+}
+  
